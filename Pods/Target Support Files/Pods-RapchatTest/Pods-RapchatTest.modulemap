@@ -1,0 +1,6 @@
+framework module Pods_RapchatTest {
+  umbrella header "Pods-RapchatTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

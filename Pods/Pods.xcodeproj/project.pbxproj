@@ -1,0 +1,1564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001749CFC0A2973E334AB22F36DA06A0 /* AvoUnknownType.m in Sources */ = {isa = PBXBuildFile; fileRef = C437A18E967131BF361ED5301E422905 /* AvoUnknownType.m */; };
+		01C8931A0187055DD3C32C427AC8826C /* Amplitude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11B528A4C92AF920A932F757F0A5698 /* Amplitude-dummy.m */; };
+		02F664C46D6078DD3962C982C8B24622 /* ISPPinnedNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A86AB17A581ED76B0D34C63DCA3ECA51 /* ISPPinnedNSURLConnectionDelegate.m */; };
+		0B202A6BB6ED7C02D7CD0512B76CD85D /* Inspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E88A62E00B18C297E65E0BB0E7F1144 /* Inspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBBE075B4FDB5FE8D9FE67C7D861B02 /* AMPDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2469F8F03DA25FCDA98085F85EF495FE /* AMPDatabaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF8F41C6C84C0B4136EBAFCEF5EF7C1 /* DebuggerAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7B2ADADBA58D2EBC82E9F38681EB3C /* DebuggerAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4C51DE462A535D2C08108FDEDA1D4E /* AMPConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCBC82A6AFF979396C3CCA15DD35EDF /* AMPConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102DB20B9F8812D10E6B8387DFEA3E61 /* BarDebuggerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A28FBE302056CD9847FEDB51490BBC /* BarDebuggerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14201295BA217E0AA4EF6D143FD368AA /* AvoNull.m in Sources */ = {isa = PBXBuildFile; fileRef = B955F202B20BC7407357B111B6EE3C4F /* AvoNull.m */; };
+		14A7D339563700CFCC4C9AF8540011FA /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 149FA3FFC9AFDA96BEAEFED9B8D80113 /* AMPDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1541E006A55AF089708F5EDA8E35338A /* AvoInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB613E22211EDC668873AC843DD08C0D /* AvoInspector-dummy.m */; };
+		15FAE09B8179540ECC7E748A910706D4 /* BubbleDebuggerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5764EF6EE96277744FF271AC78300D /* BubbleDebuggerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16CD7FE9F87E0F29B88A2A2A2BF4B744 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A12A0A0CC087BE3437CC647E98ECB57 /* AMPConstants.m */; };
+		1B6A1F546D1E9F5FE10B7C1AC70FAE37 /* DebuggerProp.m in Sources */ = {isa = PBXBuildFile; fileRef = 53942B58E82BAFBDC294E2A7F47C868E /* DebuggerProp.m */; };
+		1ED7FFAB186A1E0DAD1A2EB8BF3435C8 /* ComodoRsaDomainValidationCA.der in Resources */ = {isa = PBXBuildFile; fileRef = B467A5F8521150EABE0B5F7A61B03B20 /* ComodoRsaDomainValidationCA.der */; };
+		229457DCDE5FF378C83343112986C34F /* ISPPinnedNSURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 827A2836DBE9A11E8588D0AB21C72FD7 /* ISPPinnedNSURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A2F66EFCE818A5C2F464E3FB56B497 /* AvoDeduplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = C58723876446C158E97E5AACF9035E0E /* AvoDeduplicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB0749BAA29FC9E7B6BED5FF64FAD03 /* AvoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2518955C34B76C65DB1226B5FAA267D5 /* AvoList.m */; };
+		2FDCF0211E09FBC89A6186A35F2E3D6F /* AMPInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C549F11EB589056A038510228D5A7 /* AMPInfoViewController.m */; };
+		316F6D6D0CECBE2B1B08C9A53CC529A4 /* AMPRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D51EC362C9CDBB395AE53D5AD3723 /* AMPRevenue.m */; };
+		331C4F21676680E9A98558D488EDE236 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = E78FBA7C11ABBB3F4F389A22617FBE9A /* cancel.png */; };
+		39294B345C6F4EC2C11C2ABAF3571380 /* AvoInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E5E72296119669C872335F4E697845 /* AvoInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399D8609266909A89CB909A6BDD08A1C /* AvoBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DA833A09330183E8B4CE6273C8F55F /* AvoBoolean.m */; };
+		3A1412E36B6C33BD89776200CC86B8D5 /* AvoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4624818858509EBDBFB549E5416ED1C7 /* AvoObject.m */; };
+		3A8DFE7EB91FCA342B6D50B69244B713 /* AMPURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EE764BD3495DF3A492240DB144BBB7EE /* AMPURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B16B37288B82DD523285CB947B75086 /* AvoInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A551FFB20EC8D26C666E57A1ED287E5 /* AvoInspector.m */; };
+		3E126E11048E0BDDC790B41A75A8146E /* AvoBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8C92F03516889ACE86F83727B3B2D9 /* AvoBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42A0EDABCC8D05CA24D2026FB55C9E82 /* AvoInstallationId.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104F655C10D1A42671D15FBF799390F /* AvoInstallationId.m */; };
+		43A5314D5C766975615A4E308D5C13B2 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87E9AC75CBD7A302576E1E336F6DE5F /* EventTableViewCell.xib */; };
+		442D8217127F269851E6C618A64D01A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */; };
+		443637F28105C20D148B72BF568BBBC6 /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CA0DB127C31171E462DBF2E569139B /* ISPCertificatePinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4460A0ECB78E5B7B976903889B11C2AD /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDC0B0467700237B8305BF74151DB8F /* AMPDeviceInfo.m */; };
+		46E88BBCC7B67D2CA0C1B653ACDC7116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */; };
+		47626A7218048B8EE2111F70FD318E12 /* BubbleDebuggerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE7A229169B3B309C8E9B99AE32BA2 /* BubbleDebuggerXIB.xib */; };
+		4B830078FD822B3ADD39196306CF7617 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DEC1C6087E876077EBBDBB06087D59 /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C361468071D71054F557D6655A8A0D7 /* logo-button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 703E2E26E559D01BB6EFB40CC77987BF /* logo-button@3x.png */; };
+		4D6239FFC00250A237701E99263EF031 /* IosAnalyticsDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2A1FC203EDE0711235EC3DE017B5 /* IosAnalyticsDebugger-dummy.m */; };
+		4E9281FB2204AC7950436EED67572314 /* AnalyticsDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F28533B783534B2367922DAC039CC92 /* AnalyticsDebugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1A2714072C4A2A6BD624F0B4C0C258 /* AMPBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2772BA30EDB2345FEE4461AD2CEF36C /* AMPBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50684264DC164777CB431D0D0285FD48 /* EventsListScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C933247216523E1CED5D926D9A9D23E9 /* EventsListScreenViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52EA6BB3726395CE19C02AEC037B0D44 /* AvoFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4081F2E35B720750C2C17FE252C683 /* AvoFloat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581C4697CD6FE1904BD2A917D4C63BF0 /* AMPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D484CDA137EA6BFA819E3F85B1D2C7 /* AMPURLConnection.m */; };
+		5A0AE8DF13DC760E1C0E55D189332C20 /* DebuggerEventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD085368E9DE9D29F8BEBA9E1C6771BB /* DebuggerEventItem.m */; };
+		5C374B3B201883B03ABD88581CF40F92 /* AvoBatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D5739EB4F84BB5A1FAB50E3E638CC425 /* AvoBatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAE5B3119EEFD71A90E55C546882EC2 /* AvoEventSchemaType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D97F19B8E9F8D71B2449AC5CC18C90A /* AvoEventSchemaType.m */; };
+		5ED5526ECCB2346E9DE63668B9486660 /* AMPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A818447AA9A72EF0D5B05221091AA16B /* AMPConfigManager.m */; };
+		5FEC1441391408856AFE4872426B14C7 /* IosAnalyticsDebugger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A518219D7B25B888EEA71F5CCA8248 /* IosAnalyticsDebugger.bundle */; };
+		606DC94DBA2947226B3A6C4C71ED7995 /* AMPBubbleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C238FA4E7F080FA76FAB7CDF79C753E /* AMPBubbleView.xib */; };
+		60CE01D6A8704740319375328803A857 /* EventsListScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC78F73B99B26A094257C581AC44FCB /* EventsListScreenViewController.m */; };
+		626C80A6404C6F5936808A949BF612DF /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689B41EBC9F71C6F6AE6B5F7D8F02C1 /* cancel@3x.png */; };
+		67918E73A0715D87CB4CD502B4EF301A /* AvoSessionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DA9098F8976927CC67DC77150C8584 /* AvoSessionTracker.m */; };
+		69B10F19955A6C132194F3DBEAE1612E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8E0CFDEA662971185749522D03AC1C /* Assets.xcassets */; };
+		6A1169D3D69E77960E9BBB0AFCCAC624 /* AvoNetworkCallsHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A6AEBFC6EDD7BE452DF3D04D603F30 /* AvoNetworkCallsHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712A1D55140C62E8216D5A8BFD98A572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */; };
+		7152D534B194DB7F3BD591DA2D0E0494 /* EventsListScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB536C2D0ED31CBAE6C3B10A3210188 /* EventsListScreenViewController.xib */; };
+		748F96B83994D6B1F36FC939A89399E4 /* logo-banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06DED2F1C459B2242F015A4567EFD4 /* logo-banner@3x.png */; };
+		761FAF6892B2F0374DD705164583A521 /* AMPRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 87970C248ED1418D3DCA0BB932D5C734 /* AMPRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776430831AB853C3BB945B9137FEC449 /* AMPInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBA8A7BC4C285CC26554D87396E029A /* AMPInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79676AB92098A88EA791ECF096A32ADB /* DebuggerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 29013C60CD8051AFDA0D6DC46D66A20C /* DebuggerMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A593AD558D4E1D7B42BADAA067E35DB /* AvoString.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD88AF9A8D40CEF6958CD74DF6D2D07 /* AvoString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8409576BE04E724A67B8E96E2BDBC7 /* AMPEventExplorer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3030CCCC98A0B06BE0A6E3DB870C98 /* AMPEventExplorer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD4C19E505DC1094531C97343500883 /* Amplitude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5694DCC687ABCC54F20D5845048D11AD /* Amplitude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D423D0FE539E0A1A702D08782380D16 /* DebuggerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3648E427867B417E260943CCA1A2A9E0 /* DebuggerMessage.m */; };
+		7E54E6A84103478413F7934BF4B48DDA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 782BF075E3DF2340FCBAA05760C567AC /* Util.m */; };
+		80C3A86DE7472B05EBF1D1400C3E9737 /* AMPInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEAC99C216496E2F21D44E114A4EAAA /* AMPInfoViewController.xib */; };
+		82CCBA3E18F62D193258D8440C6F550B /* IosAnalyticsDebugger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E70F3FB2F69D702B644608D223FC63D /* IosAnalyticsDebugger.framework */; };
+		873FC53ED9752887E6A80B298F3DD230 /* Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3D4F7DD5F25DC2F949912674B9F567 /* Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877ACBD1FB90677AB3374CFD99FD336C /* AvoInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 0949EFB1626AAA2F26E4902A5CA2EE03 /* AvoInt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F88992F86FD311F99E018486D55D37 /* AvoUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7D2634F2C9B68B5AABE3B100A96CB7 /* AvoUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E1793954A6DF835DADA6FB79998457 /* DebuggerPropError.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7390E3F403B314DD607236F61459D2 /* DebuggerPropError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A0C3916EB3F6D2AD099B34B097934FF /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE669E4B35B6F85A276F58ABCD84620 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D46A3E7CF098C664D97A0BDBB3E9417 /* EventTableViewSecondaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91C54FB87C00F0D264D39CDC9F7C9CD /* EventTableViewSecondaryCell.xib */; };
+		8E162A65E7E4471AE039973FF08A381D /* AvoEventSchemaType.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EB2480E01B8CD26EAAC7B32153AC51 /* AvoEventSchemaType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F969CFF095A6BF4C72B94AC2AED6B0B /* DebuggerAnalyticsDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC30BF3E9BBC1C985169F47CF680CA1 /* DebuggerAnalyticsDestination.m */; };
+		90B3664A9343C6C1F1E52067FE5F2F95 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9760D52C59330B9C6B5964AA99842AFC /* AmplitudePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C5ED11BF3D9A8049112185991F9973 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C95D27FAB078DBAAD11FD51CAD0C62 /* AMPDatabaseHelper.m */; };
+		91B58AD6A08186CD41B2191891131E77 /* AvoFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = AB24C21AB412AB367BE6677AD7FF0FD7 /* AvoFloat.m */; };
+		94242A2816831E575BDEB1C82134747E /* BarDebuggerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32F1A53FF0A0344EC3CE59D3DB6BABE /* BarDebuggerView.m */; };
+		968D604477E7B34B8293AE31A62CDF5E /* IosAnalyticsDebugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0527084ABF6788C383E19236E561012 /* IosAnalyticsDebugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C38948B4ACE02BF8C61CA59F81D606 /* AvoSchemaExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B70899F76A1A0B59E78E9C95C5C8F1 /* AvoSchemaExtractor.m */; };
+		96D244AE156AAD834D715BC4C777E182 /* AvoSessionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = E94E364CB29719CBA6D506D4E088859C /* AvoSessionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB0677CA27CC21B3C9E053EE47D43F4 /* AvoInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246D3D6E889D509E8F478F161634AA32 /* AvoInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3707E913D449ADA43FD41765A5018A /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D0B33EDF12E243652353D43103C7CD /* AMPTrackingOptions.m */; };
+		A3807C4032E91EB17853F590C7112CB7 /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CB9C4DC8C58342CFDD2DAD338B1E7 /* ISPCertificatePinning.m */; };
+		A3C534159FC3B7AC8D016ECA34FB24D4 /* BubbleDebuggerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C646504ADD15541388A60CDC03BCE9 /* BubbleDebuggerView.m */; };
+		A48249D904C0A6EFCDAA92F197D56728 /* AvoInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 24443DEA8A43F049B07A9E01B588531C /* AvoInt.m */; };
+		A7F25B84190CCFD40546730224FBF71B /* Pods-RapchatTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D10EE90280DDD8C01A696F25E0AF975 /* Pods-RapchatTest-dummy.m */; };
+		A8316A6F16455F38AF0E560676BA7313 /* Pods-RapchatTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD8E72116E243DA70D7198CE3D3F7AF /* Pods-RapchatTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9CF298A646257D1875C8FB096EDA1F8 /* logo-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E7EC8457467C350C4F706ABB763764 /* logo-banner.png */; };
+		ADF44E938DCC9FD52AC71799F5ED580C /* EventTableViewSecondaryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE8DA36CF83DEAFCF5677C1FF34A9 /* EventTableViewSecondaryCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A9FF9190E659D17B2B0909FAAF4B53 /* AvoList.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A1D24BFCC2C17F6DB9FC59E54DAA8D /* AvoList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46CCD4333C34FFC710B25AC8CC85F66 /* AvoNetworkCallsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D5B09E0421312D18B12E117320F45 /* AvoNetworkCallsHandler.m */; };
+		B4CE36A2BE6FD8166F7B2887B11E727A /* AvoNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 701D9BA1165E17D5CA66119906718145 /* AvoNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D7277B7A7D06CA87ACA564C4C059E9 /* AvoString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EC401C85A43685A5BA24BED327A07 /* AvoString.m */; };
+		BBD741150FBDEEB5E5DDE4C4634012AB /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 128228F3FAED3EEA3FDBA3879E369B63 /* EventTableViewCell.m */; };
+		BBE68C02FF9F23F486D5CEB1050E09E2 /* AvoInstallationId.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A885A6567563B92727B0DAC762CC64A /* AvoInstallationId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFA598D88AA27B2A5EE44EC954C1299 /* AvoUnknownType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8DCC8C7174445B7E0E408B4F8EBE38 /* AvoUnknownType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEFD39CC917053CAE230A721FF74C879 /* DebuggerProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2EBB3EFCAE6CEDE56D53605663E100 /* DebuggerProp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF85D681F46465E9E91DAF21D84E7B1D /* AvoBatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 37705668B679E3097D087CF96319078F /* AvoBatcher.m */; };
+		C0B0596E49C827C13C3C07D1EA9ABDB7 /* logo-banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325129F94A889BED1149440A8A1D97D3 /* logo-banner@2x.png */; };
+		C0C2A20AD0EC2C706B69294C2F3182F0 /* AnalyticsDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = D0694AF4C7F9AEFC58A46AC9E6F3D8F6 /* AnalyticsDebugger.m */; };
+		C112F57A3CDA6B94ADA23A562D44E8F4 /* DebuggerAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF2DBEEBD6D8FE0E0A6A6465D66736 /* DebuggerAnalytics.m */; };
+		C291375BFCF252673FB6326ED6A93733 /* AMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DF759D9AA211C43588C4FC0994F411 /* AMPConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C21DCECCB216F2DA6731DAB2C5E064 /* EventTableViewSecondaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0889A6617F0690CF8E88149523DB08 /* EventTableViewSecondaryCell.m */; };
+		C915345412F6A544385ED162B2F65EB9 /* DebuggerPropError.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F8F609FFE248494E02902A357A3964 /* DebuggerPropError.m */; };
+		C9FDBAAE88FF4D90BD1E56EE27695724 /* AMPURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6DF4A6F6A0E53794EA0B1AEAF4990 /* AMPURLSession.m */; };
+		CA6194EE48D802A6810D22E50FFFE9A5 /* AMPURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 680A5FE943E9178CD89A3DFA7792007A /* AMPURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC040E99B7A24B125D0358775A58C0B4 /* AMPBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5705BEC5DDF04B5A44EEDCFD1DC7781 /* AMPBubbleView.m */; };
+		CF3DAD9B609140E49826BCA897ECA318 /* DebuggerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E4CB460F9937AF377FE7145D28BFB7 /* DebuggerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC2FA433F731DC4370CD2870BBFA5C7 /* AvoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD9CF44630616AD8C7F4E8E336DF115 /* AvoObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF3E1AF7F7783203FD2375A2FD10DD5 /* DebuggerAnalyticsDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3FB30C3D4C9E4A6AE8A5DF9881CACB /* DebuggerAnalyticsDestination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0368BB9FD565B92F82FD0BEAC60915F /* DebuggerEventItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E902EA1B6BA0B2064E56BAA9F50317D3 /* DebuggerEventItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAB70B6EEB4AD637A602B1C3C4908F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */; };
+		DB630EBA640BEEA8EBA0869B83839BA1 /* AMPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA76182F3D5E671BEB0623D8175C85 /* AMPUtils.m */; };
+		DBBDD1C5170A82AD1E2E9319AB76EFCA /* logo-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C640415A19372593A3544AA8ECFC8A /* logo-button.png */; };
+		DCB35F62937BA8FD9AAE1139DEEDACBA /* Amplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E85E167ACF4FD7D6B41549ACCB4C35 /* Amplitude.m */; };
+		DD325C1625BB73E3B3040CB61D4754D0 /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B9E0DA1152078665E27EC882CC0A55 /* ISPPinnedNSURLSessionDelegate.m */; };
+		E37DFC60C203A40FCDA74DC36C66CC70 /* AMPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E7685E3A72E10230FBE4C22B7721CCC0 /* AMPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E420C4F94BFEBF1BDF90B936CBA3EE7A /* AMPIdentify.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A2471AC641C1F0471644FFE5D953B9 /* AMPIdentify.m */; };
+		E50D005AA9C6B4B12F9793B4F6168C3F /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 4254A9D9600D6DA73455E1BFCA0C8B1C /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC866DA82162CACC260970D4F89C7168 /* AvoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 461D07DB372C4053AD8C4DAC4E1EA5FD /* AvoUtils.m */; };
+		EEF1C7D327D4688BAE73E74F4F0C387B /* AvoDeduplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D413BE687CB8D5806D7DEDCB876FC8 /* AvoDeduplicator.m */; };
+		F02901205B574E8F985C180E5C1D824F /* AMPEventExplorer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D867A4C58315895D40EE9187C2AC21 /* AMPEventExplorer.m */; };
+		F070AD0CF878F0CBF5BB18F261582773 /* AvoSchemaExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E90E020CCAECE099A479B673F6FEBA /* AvoSchemaExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F074E24C81D490A1AC3BC258232D5980 /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E064C6DD55E8A295FE1BB2307D212C /* ISPPinnedNSURLSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07C0933A3E7911A9BBFBE2AE7C28C63 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A963E5A5BA5E29328818D34E0CC79FB /* cancel@2x.png */; };
+		F57E3C661864A6C7D9BD66E4A54473CD /* AMPTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = E84B775FD2697D21A7720D6DB68791CC /* AMPTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F716D2DA8CCDF81B2D7BFEF0E898D4B1 /* EventTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F52322B7741B44A8DBF70E7554A579F8 /* EventTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72C276C2F7A8A5BCE3114EC34734F8B /* logo-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A220A9BF5A19E9B39763D293B7EF7 /* logo-button@2x.png */; };
+		FA4C573566AE593F439447852164B7CC /* BarDebugger.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92216DE0415999C4A3FC6B54D50BCB1 /* BarDebugger.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2990BEE0A2BCE1886A3A2B39784E4B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48823D1BDBB2F1869C0D86BC1B605657;
+			remoteInfo = IosAnalyticsDebugger;
+		};
+		4511928D01C07FAB7BD011E968BC1D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A90B0F4EBD528FD468C3F3BCC31CD7;
+			remoteInfo = Amplitude;
+		};
+		4DFB3A3724D8C95F12EEDFA86F6F267D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1426C9D5A1DEE94F3916A09E891BAD7;
+			remoteInfo = "IosAnalyticsDebugger-IosAnalyticsDebugger";
+		};
+		B98371ED12318194FB1902D8C4D98D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB07DC335904D6A8475653674C0BF14;
+			remoteInfo = AvoInspector;
+		};
+		DDF95DF28BA94533D9A24C3948BF4675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48823D1BDBB2F1869C0D86BC1B605657;
+			remoteInfo = IosAnalyticsDebugger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F8F609FFE248494E02902A357A3964 /* DebuggerPropError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerPropError.m; path = IosAnalyticsDebugger/Classes/model/DebuggerPropError.m; sourceTree = "<group>"; };
+		03DA833A09330183E8B4CE6273C8F55F /* AvoBoolean.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoBoolean.m; path = AvoInspector/Classes/eventschematypes/AvoBoolean.m; sourceTree = "<group>"; };
+		0421A404C60D6FFB4A49C0F232A58EB3 /* Amplitude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Amplitude-prefix.pch"; sourceTree = "<group>"; };
+		0689B41EBC9F71C6F6AE6B5F7D8F02C1 /* cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cancel@3x.png"; path = "Sources/EventExplorer/Resources/Images/cancel@3x.png"; sourceTree = "<group>"; };
+		07A2471AC641C1F0471644FFE5D953B9 /* AMPIdentify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPIdentify.m; path = Sources/Amplitude/AMPIdentify.m; sourceTree = "<group>"; };
+		0949EFB1626AAA2F26E4902A5CA2EE03 /* AvoInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoInt.h; path = AvoInspector/Classes/eventschematypes/AvoInt.h; sourceTree = "<group>"; };
+		0C781FF4C976452E11FAAB65E0F34882 /* IosAnalyticsDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IosAnalyticsDebugger.framework; path = IosAnalyticsDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F28533B783534B2367922DAC039CC92 /* AnalyticsDebugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnalyticsDebugger.h; path = IosAnalyticsDebugger/Classes/AnalyticsDebugger.h; sourceTree = "<group>"; };
+		0FBA8A7BC4C285CC26554D87396E029A /* AMPInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPInfoViewController.h; path = Sources/EventExplorer/AMPInfoViewController.h; sourceTree = "<group>"; };
+		1104F655C10D1A42671D15FBF799390F /* AvoInstallationId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoInstallationId.m; path = AvoInspector/Classes/AvoInstallationId.m; sourceTree = "<group>"; };
+		11B0383C6B04CAF519A3D2E82E34D559 /* AvoInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvoInspector.framework; path = AvoInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128228F3FAED3EEA3FDBA3879E369B63 /* EventTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EventTableViewCell.m; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventTableViewCell.m; sourceTree = "<group>"; };
+		13DA9098F8976927CC67DC77150C8584 /* AvoSessionTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoSessionTracker.m; path = AvoInspector/Classes/AvoSessionTracker.m; sourceTree = "<group>"; };
+		149FA3FFC9AFDA96BEAEFED9B8D80113 /* AMPDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPDeviceInfo.h; path = Sources/Amplitude/AMPDeviceInfo.h; sourceTree = "<group>"; };
+		1A963E5A5BA5E29328818D34E0CC79FB /* cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cancel@2x.png"; path = "Sources/EventExplorer/Resources/Images/cancel@2x.png"; sourceTree = "<group>"; };
+		1E70F3FB2F69D702B644608D223FC63D /* IosAnalyticsDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IosAnalyticsDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F86CFF4D2A2234C1935B4A080034679 /* Pods-RapchatTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RapchatTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21DF759D9AA211C43588C4FC0994F411 /* AMPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPConstants.h; path = Sources/Amplitude/AMPConstants.h; sourceTree = "<group>"; };
+		2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24443DEA8A43F049B07A9E01B588531C /* AvoInt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoInt.m; path = AvoInspector/Classes/eventschematypes/AvoInt.m; sourceTree = "<group>"; };
+		2469F8F03DA25FCDA98085F85EF495FE /* AMPDatabaseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPDatabaseHelper.h; path = Sources/Amplitude/AMPDatabaseHelper.h; sourceTree = "<group>"; };
+		246D3D6E889D509E8F478F161634AA32 /* AvoInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvoInspector-umbrella.h"; sourceTree = "<group>"; };
+		2518955C34B76C65DB1226B5FAA267D5 /* AvoList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoList.m; path = AvoInspector/Classes/eventschematypes/AvoList.m; sourceTree = "<group>"; };
+		29013C60CD8051AFDA0D6DC46D66A20C /* DebuggerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerMessage.h; path = IosAnalyticsDebugger/Classes/model/DebuggerMessage.h; sourceTree = "<group>"; };
+		2A3030CCCC98A0B06BE0A6E3DB870C98 /* AMPEventExplorer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPEventExplorer.h; path = Sources/EventExplorer/AMPEventExplorer.h; sourceTree = "<group>"; };
+		2A3FB30C3D4C9E4A6AE8A5DF9881CACB /* DebuggerAnalyticsDestination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerAnalyticsDestination.h; path = IosAnalyticsDebugger/Classes/analytics/DebuggerAnalyticsDestination.h; sourceTree = "<group>"; };
+		2A9C925DCFB66E2029A673E929EDF43D /* Pods-RapchatTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RapchatTest.modulemap"; sourceTree = "<group>"; };
+		2BC78F73B99B26A094257C581AC44FCB /* EventsListScreenViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EventsListScreenViewController.m; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventsListScreenViewController.m; sourceTree = "<group>"; };
+		2E4EC401C85A43685A5BA24BED327A07 /* AvoString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoString.m; path = AvoInspector/Classes/eventschematypes/AvoString.m; sourceTree = "<group>"; };
+		2EDE3CE9A7E94701CC9A0C478622CECB /* ResourceBundle-IosAnalyticsDebugger-IosAnalyticsDebugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IosAnalyticsDebugger-IosAnalyticsDebugger-Info.plist"; sourceTree = "<group>"; };
+		2EEB2A1FC203EDE0711235EC3DE017B5 /* IosAnalyticsDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IosAnalyticsDebugger-dummy.m"; sourceTree = "<group>"; };
+		325129F94A889BED1149440A8A1D97D3 /* logo-banner@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-banner@2x.png"; path = "Sources/EventExplorer/Resources/Images/logo-banner@2x.png"; sourceTree = "<group>"; };
+		33B9E0DA1152078665E27EC882CC0A55 /* ISPPinnedNSURLSessionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISPPinnedNSURLSessionDelegate.m; path = Sources/Amplitude/ISPPinnedNSURLSessionDelegate.m; sourceTree = "<group>"; };
+		3648E427867B417E260943CCA1A2A9E0 /* DebuggerMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerMessage.m; path = IosAnalyticsDebugger/Classes/model/DebuggerMessage.m; sourceTree = "<group>"; };
+		37705668B679E3097D087CF96319078F /* AvoBatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoBatcher.m; path = AvoInspector/Classes/AvoBatcher.m; sourceTree = "<group>"; };
+		40A518219D7B25B888EEA71F5CCA8248 /* IosAnalyticsDebugger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IosAnalyticsDebugger.bundle; path = "IosAnalyticsDebugger-IosAnalyticsDebugger.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C95D27FAB078DBAAD11FD51CAD0C62 /* AMPDatabaseHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPDatabaseHelper.m; path = Sources/Amplitude/AMPDatabaseHelper.m; sourceTree = "<group>"; };
+		4254A9D9600D6DA73455E1BFCA0C8B1C /* AMPIdentify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPIdentify.h; path = Sources/Amplitude/AMPIdentify.h; sourceTree = "<group>"; };
+		427BCD9AD7DC16A866983259C96B9CF7 /* IosAnalyticsDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IosAnalyticsDebugger-prefix.pch"; sourceTree = "<group>"; };
+		44AAE8DA36CF83DEAFCF5677C1FF34A9 /* EventTableViewSecondaryCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventTableViewSecondaryCell.h; path = IosAnalyticsDebugger/Classes/eventslistscreen/secondaryrows/EventTableViewSecondaryCell.h; sourceTree = "<group>"; };
+		461D07DB372C4053AD8C4DAC4E1EA5FD /* AvoUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoUtils.m; path = AvoInspector/Classes/AvoUtils.m; sourceTree = "<group>"; };
+		4624818858509EBDBFB549E5416ED1C7 /* AvoObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoObject.m; path = AvoInspector/Classes/eventschematypes/AvoObject.m; sourceTree = "<group>"; };
+		4A551FFB20EC8D26C666E57A1ED287E5 /* AvoInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoInspector.m; path = AvoInspector/Classes/AvoInspector.m; sourceTree = "<group>"; };
+		4EA600058359EDBA86D91BCB5EF09CF5 /* AvoInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvoInspector-prefix.pch"; sourceTree = "<group>"; };
+		53942B58E82BAFBDC294E2A7F47C868E /* DebuggerProp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerProp.m; path = IosAnalyticsDebugger/Classes/model/DebuggerProp.m; sourceTree = "<group>"; };
+		553FED1B1D8E53F84A964AC1C3F157CB /* Amplitude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Amplitude.modulemap; sourceTree = "<group>"; };
+		5694DCC687ABCC54F20D5845048D11AD /* Amplitude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Amplitude-umbrella.h"; sourceTree = "<group>"; };
+		5A885A6567563B92727B0DAC762CC64A /* AvoInstallationId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoInstallationId.h; path = AvoInspector/Classes/AvoInstallationId.h; sourceTree = "<group>"; };
+		5AC30BF3E9BBC1C985169F47CF680CA1 /* DebuggerAnalyticsDestination.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerAnalyticsDestination.m; path = IosAnalyticsDebugger/Classes/analytics/DebuggerAnalyticsDestination.m; sourceTree = "<group>"; };
+		5BD9CF44630616AD8C7F4E8E336DF115 /* AvoObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoObject.h; path = AvoInspector/Classes/eventschematypes/AvoObject.h; sourceTree = "<group>"; };
+		5D10EE90280DDD8C01A696F25E0AF975 /* Pods-RapchatTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RapchatTest-dummy.m"; sourceTree = "<group>"; };
+		6466D86EE573C28F861C2DAA6E0F4C12 /* IosAnalyticsDebugger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IosAnalyticsDebugger.release.xcconfig; sourceTree = "<group>"; };
+		64F39227EF2B15CE99680C455EFDC5A8 /* AvoInspector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvoInspector.release.xcconfig; sourceTree = "<group>"; };
+		65EE7A229169B3B309C8E9B99AE32BA2 /* BubbleDebuggerXIB.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BubbleDebuggerXIB.xib; path = IosAnalyticsDebugger/Classes/views/BubbleDebuggerXIB.xib; sourceTree = "<group>"; };
+		66A6AEBFC6EDD7BE452DF3D04D603F30 /* AvoNetworkCallsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoNetworkCallsHandler.h; path = AvoInspector/Classes/AvoNetworkCallsHandler.h; sourceTree = "<group>"; };
+		680A5FE943E9178CD89A3DFA7792007A /* AMPURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPURLConnection.h; path = Sources/Amplitude/AMPURLConnection.h; sourceTree = "<group>"; };
+		69D413BE687CB8D5806D7DEDCB876FC8 /* AvoDeduplicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoDeduplicator.m; path = AvoInspector/Classes/AvoDeduplicator.m; sourceTree = "<group>"; };
+		6A8DCC8C7174445B7E0E408B4F8EBE38 /* AvoUnknownType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoUnknownType.h; path = AvoInspector/Classes/eventschematypes/AvoUnknownType.h; sourceTree = "<group>"; };
+		6C7B2ADADBA58D2EBC82E9F38681EB3C /* DebuggerAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerAnalytics.h; path = IosAnalyticsDebugger/Classes/analytics/DebuggerAnalytics.h; sourceTree = "<group>"; };
+		6D97F19B8E9F8D71B2449AC5CC18C90A /* AvoEventSchemaType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoEventSchemaType.m; path = AvoInspector/Classes/eventschematypes/AvoEventSchemaType.m; sourceTree = "<group>"; };
+		701D9BA1165E17D5CA66119906718145 /* AvoNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoNull.h; path = AvoInspector/Classes/eventschematypes/AvoNull.h; sourceTree = "<group>"; };
+		703E2E26E559D01BB6EFB40CC77987BF /* logo-button@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-button@3x.png"; path = "Sources/EventExplorer/Resources/Images/logo-button@3x.png"; sourceTree = "<group>"; };
+		742420D95C7CDB6429E73CFE48E64610 /* Pods-RapchatTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RapchatTest-frameworks.sh"; sourceTree = "<group>"; };
+		75D6DF4A6F6A0E53794EA0B1AEAF4990 /* AMPURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPURLSession.m; path = Sources/Amplitude/AMPURLSession.m; sourceTree = "<group>"; };
+		782BF075E3DF2340FCBAA05760C567AC /* Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = IosAnalyticsDebugger/Classes/Util.m; sourceTree = "<group>"; };
+		7A2EBB3EFCAE6CEDE56D53605663E100 /* DebuggerProp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerProp.h; path = IosAnalyticsDebugger/Classes/model/DebuggerProp.h; sourceTree = "<group>"; };
+		7B0889A6617F0690CF8E88149523DB08 /* EventTableViewSecondaryCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EventTableViewSecondaryCell.m; path = IosAnalyticsDebugger/Classes/eventslistscreen/secondaryrows/EventTableViewSecondaryCell.m; sourceTree = "<group>"; };
+		7DA62E7FF42E0854D6F5E860DCD8D549 /* Amplitude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Amplitude.debug.xcconfig; sourceTree = "<group>"; };
+		7E4081F2E35B720750C2C17FE252C683 /* AvoFloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoFloat.h; path = AvoInspector/Classes/eventschematypes/AvoFloat.h; sourceTree = "<group>"; };
+		7E88A62E00B18C297E65E0BB0E7F1144 /* Inspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Inspector.h; path = AvoInspector/Classes/Inspector.h; sourceTree = "<group>"; };
+		81D867A4C58315895D40EE9187C2AC21 /* AMPEventExplorer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPEventExplorer.m; path = Sources/EventExplorer/AMPEventExplorer.m; sourceTree = "<group>"; };
+		827A2836DBE9A11E8588D0AB21C72FD7 /* ISPPinnedNSURLConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPPinnedNSURLConnectionDelegate.h; path = Sources/Amplitude/ISPPinnedNSURLConnectionDelegate.h; sourceTree = "<group>"; };
+		87970C248ED1418D3DCA0BB932D5C734 /* AMPRevenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPRevenue.h; path = Sources/Amplitude/AMPRevenue.h; sourceTree = "<group>"; };
+		88E362000C332F6187F7801046613F45 /* Pods_RapchatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RapchatTest.framework; path = "Pods-RapchatTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE669E4B35B6F85A276F58ABCD84620 /* Amplitude+SSLPinning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Amplitude+SSLPinning.h"; path = "Sources/Amplitude/Amplitude+SSLPinning.h"; sourceTree = "<group>"; };
+		92D0B33EDF12E243652353D43103C7CD /* AMPTrackingOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPTrackingOptions.m; path = Sources/Amplitude/AMPTrackingOptions.m; sourceTree = "<group>"; };
+		939A220A9BF5A19E9B39763D293B7EF7 /* logo-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-button@2x.png"; path = "Sources/EventExplorer/Resources/Images/logo-button@2x.png"; sourceTree = "<group>"; };
+		9442C76180BBC96CE5B627557262BB16 /* IosAnalyticsDebugger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IosAnalyticsDebugger.debug.xcconfig; sourceTree = "<group>"; };
+		95C640415A19372593A3544AA8ECFC8A /* logo-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-button.png"; path = "Sources/EventExplorer/Resources/Images/logo-button.png"; sourceTree = "<group>"; };
+		961F2ECD9230E5EF14C90D3902D35EEF /* Pods-RapchatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RapchatTest.release.xcconfig"; sourceTree = "<group>"; };
+		9760D52C59330B9C6B5964AA99842AFC /* AmplitudePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AmplitudePrivate.h; path = Sources/Amplitude/AmplitudePrivate.h; sourceTree = "<group>"; };
+		9A12A0A0CC087BE3437CC647E98ECB57 /* AMPConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPConstants.m; path = Sources/Amplitude/AMPConstants.m; sourceTree = "<group>"; };
+		9BDA76182F3D5E671BEB0623D8175C85 /* AMPUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPUtils.m; path = Sources/Amplitude/AMPUtils.m; sourceTree = "<group>"; };
+		9C238FA4E7F080FA76FAB7CDF79C753E /* AMPBubbleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMPBubbleView.xib; path = Sources/EventExplorer/Resources/AMPBubbleView.xib; sourceTree = "<group>"; };
+		9CCBC82A6AFF979396C3CCA15DD35EDF /* AMPConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPConfigManager.h; path = Sources/Amplitude/AMPConfigManager.h; sourceTree = "<group>"; };
+		9CFCC9944713D1E2C577B1A666E7133C /* AvoInspector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvoInspector.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EADCBE111DCF50E73DCCB5EB3A9D7C1 /* AvoInspector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvoInspector-Info.plist"; sourceTree = "<group>"; };
+		A818447AA9A72EF0D5B05221091AA16B /* AMPConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPConfigManager.m; path = Sources/Amplitude/AMPConfigManager.m; sourceTree = "<group>"; };
+		A86AB17A581ED76B0D34C63DCA3ECA51 /* ISPPinnedNSURLConnectionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISPPinnedNSURLConnectionDelegate.m; path = Sources/Amplitude/ISPPinnedNSURLConnectionDelegate.m; sourceTree = "<group>"; };
+		A92216DE0415999C4A3FC6B54D50BCB1 /* BarDebugger.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BarDebugger.xib; path = IosAnalyticsDebugger/Classes/views/BarDebugger.xib; sourceTree = "<group>"; };
+		A9DEC1C6087E876077EBBDBB06087D59 /* Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Util.h; path = IosAnalyticsDebugger/Classes/Util.h; sourceTree = "<group>"; };
+		AAD8E72116E243DA70D7198CE3D3F7AF /* Pods-RapchatTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RapchatTest-umbrella.h"; sourceTree = "<group>"; };
+		AB24C21AB412AB367BE6677AD7FF0FD7 /* AvoFloat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoFloat.m; path = AvoInspector/Classes/eventschematypes/AvoFloat.m; sourceTree = "<group>"; };
+		AEDC0B0467700237B8305BF74151DB8F /* AMPDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPDeviceInfo.m; path = Sources/Amplitude/AMPDeviceInfo.m; sourceTree = "<group>"; };
+		AF6CB9C4DC8C58342CFDD2DAD338B1E7 /* ISPCertificatePinning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISPCertificatePinning.m; path = Sources/Amplitude/ISPCertificatePinning.m; sourceTree = "<group>"; };
+		B1273B42F2E3FD30CF14E587A3C42086 /* IosAnalyticsDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IosAnalyticsDebugger.modulemap; sourceTree = "<group>"; };
+		B2C646504ADD15541388A60CDC03BCE9 /* BubbleDebuggerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BubbleDebuggerView.m; path = IosAnalyticsDebugger/Classes/views/BubbleDebuggerView.m; sourceTree = "<group>"; };
+		B467A5F8521150EABE0B5F7A61B03B20 /* ComodoRsaDomainValidationCA.der */ = {isa = PBXFileReference; includeInIndex = 1; name = ComodoRsaDomainValidationCA.der; path = Sources/Amplitude/Resources/ComodoRsaDomainValidationCA.der; sourceTree = "<group>"; };
+		B5177B41685DE779DD98495B0FCAE79C /* Pods-RapchatTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RapchatTest-Info.plist"; sourceTree = "<group>"; };
+		B7E85E167ACF4FD7D6B41549ACCB4C35 /* Amplitude.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Amplitude.m; path = Sources/Amplitude/Amplitude.m; sourceTree = "<group>"; };
+		B955F202B20BC7407357B111B6EE3C4F /* AvoNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoNull.m; path = AvoInspector/Classes/eventschematypes/AvoNull.m; sourceTree = "<group>"; };
+		BB8C92F03516889ACE86F83727B3B2D9 /* AvoBoolean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoBoolean.h; path = AvoInspector/Classes/eventschematypes/AvoBoolean.h; sourceTree = "<group>"; };
+		BCB536C2D0ED31CBAE6C3B10A3210188 /* EventsListScreenViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EventsListScreenViewController.xib; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventsListScreenViewController.xib; sourceTree = "<group>"; };
+		BD085368E9DE9D29F8BEBA9E1C6771BB /* DebuggerEventItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerEventItem.m; path = IosAnalyticsDebugger/Classes/model/DebuggerEventItem.m; sourceTree = "<group>"; };
+		BD6777DD6210B7B1B219E0C9CE473BE2 /* Amplitude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Amplitude.release.xcconfig; sourceTree = "<group>"; };
+		BE06DED2F1C459B2242F015A4567EFD4 /* logo-banner@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-banner@3x.png"; path = "Sources/EventExplorer/Resources/Images/logo-banner@3x.png"; sourceTree = "<group>"; };
+		BF7390E3F403B314DD607236F61459D2 /* DebuggerPropError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerPropError.h; path = IosAnalyticsDebugger/Classes/model/DebuggerPropError.h; sourceTree = "<group>"; };
+		C0EB2480E01B8CD26EAAC7B32153AC51 /* AvoEventSchemaType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoEventSchemaType.h; path = AvoInspector/Classes/eventschematypes/AvoEventSchemaType.h; sourceTree = "<group>"; };
+		C1E064C6DD55E8A295FE1BB2307D212C /* ISPPinnedNSURLSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPPinnedNSURLSessionDelegate.h; path = Sources/Amplitude/ISPPinnedNSURLSessionDelegate.h; sourceTree = "<group>"; };
+		C32F1A53FF0A0344EC3CE59D3DB6BABE /* BarDebuggerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarDebuggerView.m; path = IosAnalyticsDebugger/Classes/views/BarDebuggerView.m; sourceTree = "<group>"; };
+		C437A18E967131BF361ED5301E422905 /* AvoUnknownType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoUnknownType.m; path = AvoInspector/Classes/eventschematypes/AvoUnknownType.m; sourceTree = "<group>"; };
+		C58723876446C158E97E5AACF9035E0E /* AvoDeduplicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoDeduplicator.h; path = AvoInspector/Classes/AvoDeduplicator.h; sourceTree = "<group>"; };
+		C933247216523E1CED5D926D9A9D23E9 /* EventsListScreenViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventsListScreenViewController.h; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventsListScreenViewController.h; sourceTree = "<group>"; };
+		CA7D2634F2C9B68B5AABE3B100A96CB7 /* AvoUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoUtils.h; path = AvoInspector/Classes/AvoUtils.h; sourceTree = "<group>"; };
+		CDD88AF9A8D40CEF6958CD74DF6D2D07 /* AvoString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoString.h; path = AvoInspector/Classes/eventschematypes/AvoString.h; sourceTree = "<group>"; };
+		CEC1C0B8AC28A25CCAD8B55BD4B13573 /* IosAnalyticsDebugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IosAnalyticsDebugger-Info.plist"; sourceTree = "<group>"; };
+		CF3D4F7DD5F25DC2F949912674B9F567 /* Amplitude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Amplitude.h; path = Sources/Amplitude/Amplitude.h; sourceTree = "<group>"; };
+		D0527084ABF6788C383E19236E561012 /* IosAnalyticsDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IosAnalyticsDebugger-umbrella.h"; sourceTree = "<group>"; };
+		D0694AF4C7F9AEFC58A46AC9E6F3D8F6 /* AnalyticsDebugger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnalyticsDebugger.m; path = IosAnalyticsDebugger/Classes/AnalyticsDebugger.m; sourceTree = "<group>"; };
+		D0E4CB460F9937AF377FE7145D28BFB7 /* DebuggerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerView.h; path = IosAnalyticsDebugger/Classes/views/DebuggerView.h; sourceTree = "<group>"; };
+		D0F3042D2AA5D7EA85198539CEA91136 /* Pods-RapchatTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RapchatTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		D11B528A4C92AF920A932F757F0A5698 /* Amplitude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Amplitude-dummy.m"; sourceTree = "<group>"; };
+		D2865FF12FCCB3D16F59C03468E194BE /* Pods-RapchatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RapchatTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D35D5B09E0421312D18B12E117320F45 /* AvoNetworkCallsHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoNetworkCallsHandler.m; path = AvoInspector/Classes/AvoNetworkCallsHandler.m; sourceTree = "<group>"; };
+		D5705BEC5DDF04B5A44EEDCFD1DC7781 /* AMPBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPBubbleView.m; path = Sources/EventExplorer/AMPBubbleView.m; sourceTree = "<group>"; };
+		D5739EB4F84BB5A1FAB50E3E638CC425 /* AvoBatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoBatcher.h; path = AvoInspector/Classes/AvoBatcher.h; sourceTree = "<group>"; };
+		D5E40B1456FF443695DB9BF046EBCC4C /* AvoInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvoInspector.modulemap; sourceTree = "<group>"; };
+		D91C54FB87C00F0D264D39CDC9F7C9CD /* EventTableViewSecondaryCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EventTableViewSecondaryCell.xib; path = IosAnalyticsDebugger/Classes/eventslistscreen/secondaryrows/EventTableViewSecondaryCell.xib; sourceTree = "<group>"; };
+		DB613E22211EDC668873AC843DD08C0D /* AvoInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvoInspector-dummy.m"; sourceTree = "<group>"; };
+		E0A28FBE302056CD9847FEDB51490BBC /* BarDebuggerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarDebuggerView.h; path = IosAnalyticsDebugger/Classes/views/BarDebuggerView.h; sourceTree = "<group>"; };
+		E1E5E72296119669C872335F4E697845 /* AvoInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoInspector.h; path = AvoInspector/Classes/AvoInspector.h; sourceTree = "<group>"; };
+		E2772BA30EDB2345FEE4461AD2CEF36C /* AMPBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPBubbleView.h; path = Sources/EventExplorer/AMPBubbleView.h; sourceTree = "<group>"; };
+		E7685E3A72E10230FBE4C22B7721CCC0 /* AMPUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPUtils.h; path = Sources/Amplitude/AMPUtils.h; sourceTree = "<group>"; };
+		E78FBA7C11ABBB3F4F389A22617FBE9A /* cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = cancel.png; path = Sources/EventExplorer/Resources/Images/cancel.png; sourceTree = "<group>"; };
+		E7CA0DB127C31171E462DBF2E569139B /* ISPCertificatePinning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPCertificatePinning.h; path = Sources/Amplitude/ISPCertificatePinning.h; sourceTree = "<group>"; };
+		E84B775FD2697D21A7720D6DB68791CC /* AMPTrackingOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPTrackingOptions.h; path = Sources/Amplitude/AMPTrackingOptions.h; sourceTree = "<group>"; };
+		E902EA1B6BA0B2064E56BAA9F50317D3 /* DebuggerEventItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerEventItem.h; path = IosAnalyticsDebugger/Classes/model/DebuggerEventItem.h; sourceTree = "<group>"; };
+		E94E364CB29719CBA6D506D4E088859C /* AvoSessionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoSessionTracker.h; path = AvoInspector/Classes/AvoSessionTracker.h; sourceTree = "<group>"; };
+		EC1D51EC362C9CDBB395AE53D5AD3723 /* AMPRevenue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPRevenue.m; path = Sources/Amplitude/AMPRevenue.m; sourceTree = "<group>"; };
+		ECEAC99C216496E2F21D44E114A4EAAA /* AMPInfoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AMPInfoViewController.xib; path = Sources/EventExplorer/Resources/AMPInfoViewController.xib; sourceTree = "<group>"; };
+		EE764BD3495DF3A492240DB144BBB7EE /* AMPURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPURLSession.h; path = Sources/Amplitude/AMPURLSession.h; sourceTree = "<group>"; };
+		F1E7EC8457467C350C4F706ABB763764 /* logo-banner.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo-banner.png"; path = "Sources/EventExplorer/Resources/Images/logo-banner.png"; sourceTree = "<group>"; };
+		F3A1D24BFCC2C17F6DB9FC59E54DAA8D /* AvoList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoList.h; path = AvoInspector/Classes/eventschematypes/AvoList.h; sourceTree = "<group>"; };
+		F3D484CDA137EA6BFA819E3F85B1D2C7 /* AMPURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPURLConnection.m; path = Sources/Amplitude/AMPURLConnection.m; sourceTree = "<group>"; };
+		F3EF2DBEEBD6D8FE0E0A6A6465D66736 /* DebuggerAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerAnalytics.m; path = IosAnalyticsDebugger/Classes/analytics/DebuggerAnalytics.m; sourceTree = "<group>"; };
+		F52322B7741B44A8DBF70E7554A579F8 /* EventTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventTableViewCell.h; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventTableViewCell.h; sourceTree = "<group>"; };
+		F7E90E020CCAECE099A479B673F6FEBA /* AvoSchemaExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvoSchemaExtractor.h; path = AvoInspector/Classes/AvoSchemaExtractor.h; sourceTree = "<group>"; };
+		F87E9AC75CBD7A302576E1E336F6DE5F /* EventTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EventTableViewCell.xib; path = IosAnalyticsDebugger/Classes/eventslistscreen/EventTableViewCell.xib; sourceTree = "<group>"; };
+		F8B70899F76A1A0B59E78E9C95C5C8F1 /* AvoSchemaExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvoSchemaExtractor.m; path = AvoInspector/Classes/AvoSchemaExtractor.m; sourceTree = "<group>"; };
+		F92480394688B1531AEDB96C87909BA1 /* Amplitude-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Amplitude-Info.plist"; sourceTree = "<group>"; };
+		FA5764EF6EE96277744FF271AC78300D /* BubbleDebuggerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BubbleDebuggerView.h; path = IosAnalyticsDebugger/Classes/views/BubbleDebuggerView.h; sourceTree = "<group>"; };
+		FB1AEA4C98299C58EBD57977A6BF8D79 /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Amplitude.framework; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6C549F11EB589056A038510228D5A7 /* AMPInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPInfoViewController.m; path = Sources/EventExplorer/AMPInfoViewController.m; sourceTree = "<group>"; };
+		FE8E0CFDEA662971185749522D03AC1C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IosAnalyticsDebugger/Assets/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7A9A403C3ADD46D43CCAFBFB408700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712A1D55140C62E8216D5A8BFD98A572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E24A1AEAB7B94700DCAADFE2EAA8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E88BBCC7B67D2CA0C1B653ACDC7116 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE62291A09F948C0B9698CCF7DBC8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB70B6EEB4AD637A602B1C3C4908F5D /* Foundation.framework in Frameworks */,
+				82CCBA3E18F62D193258D8440C6F550B /* IosAnalyticsDebugger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0E76AA55CC9A1BB882DC8E27FC964F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442D8217127F269851E6C618A64D01A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70BF00C1F2D73C581B7E34C61C281B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7EBDB535DD0A7A2D20726CCB78DE32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92AB6E859BEBC7D2372CF72B2AA58478 /* Amplitude */,
+				897EDE42C3014F151245797E4070A29C /* AvoInspector */,
+				2804DE98B67B388FE883F958AC131E76 /* IosAnalyticsDebugger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		15A0579A93394470262B89CE2A0D4ABA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2321933640ADCAAF0DCA2EAB0DF3A602 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		22E391F1CD2031BE58C88C3A91141701 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				553FED1B1D8E53F84A964AC1C3F157CB /* Amplitude.modulemap */,
+				D11B528A4C92AF920A932F757F0A5698 /* Amplitude-dummy.m */,
+				F92480394688B1531AEDB96C87909BA1 /* Amplitude-Info.plist */,
+				0421A404C60D6FFB4A49C0F232A58EB3 /* Amplitude-prefix.pch */,
+				5694DCC687ABCC54F20D5845048D11AD /* Amplitude-umbrella.h */,
+				7DA62E7FF42E0854D6F5E860DCD8D549 /* Amplitude.debug.xcconfig */,
+				BD6777DD6210B7B1B219E0C9CE473BE2 /* Amplitude.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Amplitude";
+			sourceTree = "<group>";
+		};
+		2804DE98B67B388FE883F958AC131E76 /* IosAnalyticsDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				0F28533B783534B2367922DAC039CC92 /* AnalyticsDebugger.h */,
+				D0694AF4C7F9AEFC58A46AC9E6F3D8F6 /* AnalyticsDebugger.m */,
+				E0A28FBE302056CD9847FEDB51490BBC /* BarDebuggerView.h */,
+				C32F1A53FF0A0344EC3CE59D3DB6BABE /* BarDebuggerView.m */,
+				FA5764EF6EE96277744FF271AC78300D /* BubbleDebuggerView.h */,
+				B2C646504ADD15541388A60CDC03BCE9 /* BubbleDebuggerView.m */,
+				6C7B2ADADBA58D2EBC82E9F38681EB3C /* DebuggerAnalytics.h */,
+				F3EF2DBEEBD6D8FE0E0A6A6465D66736 /* DebuggerAnalytics.m */,
+				2A3FB30C3D4C9E4A6AE8A5DF9881CACB /* DebuggerAnalyticsDestination.h */,
+				5AC30BF3E9BBC1C985169F47CF680CA1 /* DebuggerAnalyticsDestination.m */,
+				E902EA1B6BA0B2064E56BAA9F50317D3 /* DebuggerEventItem.h */,
+				BD085368E9DE9D29F8BEBA9E1C6771BB /* DebuggerEventItem.m */,
+				29013C60CD8051AFDA0D6DC46D66A20C /* DebuggerMessage.h */,
+				3648E427867B417E260943CCA1A2A9E0 /* DebuggerMessage.m */,
+				7A2EBB3EFCAE6CEDE56D53605663E100 /* DebuggerProp.h */,
+				53942B58E82BAFBDC294E2A7F47C868E /* DebuggerProp.m */,
+				BF7390E3F403B314DD607236F61459D2 /* DebuggerPropError.h */,
+				01F8F609FFE248494E02902A357A3964 /* DebuggerPropError.m */,
+				D0E4CB460F9937AF377FE7145D28BFB7 /* DebuggerView.h */,
+				C933247216523E1CED5D926D9A9D23E9 /* EventsListScreenViewController.h */,
+				2BC78F73B99B26A094257C581AC44FCB /* EventsListScreenViewController.m */,
+				F52322B7741B44A8DBF70E7554A579F8 /* EventTableViewCell.h */,
+				128228F3FAED3EEA3FDBA3879E369B63 /* EventTableViewCell.m */,
+				44AAE8DA36CF83DEAFCF5677C1FF34A9 /* EventTableViewSecondaryCell.h */,
+				7B0889A6617F0690CF8E88149523DB08 /* EventTableViewSecondaryCell.m */,
+				A9DEC1C6087E876077EBBDBB06087D59 /* Util.h */,
+				782BF075E3DF2340FCBAA05760C567AC /* Util.m */,
+				3D315B8702E5898CC9F59B9D2E54D8AA /* Resources */,
+				D592D84862E2571024EEB7002273D65A /* Support Files */,
+			);
+			name = IosAnalyticsDebugger;
+			path = IosAnalyticsDebugger;
+			sourceTree = "<group>";
+		};
+		3D315B8702E5898CC9F59B9D2E54D8AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE8E0CFDEA662971185749522D03AC1C /* Assets.xcassets */,
+				A92216DE0415999C4A3FC6B54D50BCB1 /* BarDebugger.xib */,
+				65EE7A229169B3B309C8E9B99AE32BA2 /* BubbleDebuggerXIB.xib */,
+				BCB536C2D0ED31CBAE6C3B10A3210188 /* EventsListScreenViewController.xib */,
+				F87E9AC75CBD7A302576E1E336F6DE5F /* EventTableViewCell.xib */,
+				D91C54FB87C00F0D264D39CDC9F7C9CD /* EventTableViewSecondaryCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55B954E2C7813E4F9729A501A37442E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E70F3FB2F69D702B644608D223FC63D /* IosAnalyticsDebugger.framework */,
+				15A0579A93394470262B89CE2A0D4ABA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7548FEDC60FC8ED9EBAE487DBEB00567 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C238FA4E7F080FA76FAB7CDF79C753E /* AMPBubbleView.xib */,
+				ECEAC99C216496E2F21D44E114A4EAAA /* AMPInfoViewController.xib */,
+				E78FBA7C11ABBB3F4F389A22617FBE9A /* cancel.png */,
+				1A963E5A5BA5E29328818D34E0CC79FB /* cancel@2x.png */,
+				0689B41EBC9F71C6F6AE6B5F7D8F02C1 /* cancel@3x.png */,
+				B467A5F8521150EABE0B5F7A61B03B20 /* ComodoRsaDomainValidationCA.der */,
+				F1E7EC8457467C350C4F706ABB763764 /* logo-banner.png */,
+				325129F94A889BED1149440A8A1D97D3 /* logo-banner@2x.png */,
+				BE06DED2F1C459B2242F015A4567EFD4 /* logo-banner@3x.png */,
+				95C640415A19372593A3544AA8ECFC8A /* logo-button.png */,
+				939A220A9BF5A19E9B39763D293B7EF7 /* logo-button@2x.png */,
+				703E2E26E559D01BB6EFB40CC77987BF /* logo-button@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		897EDE42C3014F151245797E4070A29C /* AvoInspector */ = {
+			isa = PBXGroup;
+			children = (
+				D5739EB4F84BB5A1FAB50E3E638CC425 /* AvoBatcher.h */,
+				37705668B679E3097D087CF96319078F /* AvoBatcher.m */,
+				BB8C92F03516889ACE86F83727B3B2D9 /* AvoBoolean.h */,
+				03DA833A09330183E8B4CE6273C8F55F /* AvoBoolean.m */,
+				C58723876446C158E97E5AACF9035E0E /* AvoDeduplicator.h */,
+				69D413BE687CB8D5806D7DEDCB876FC8 /* AvoDeduplicator.m */,
+				C0EB2480E01B8CD26EAAC7B32153AC51 /* AvoEventSchemaType.h */,
+				6D97F19B8E9F8D71B2449AC5CC18C90A /* AvoEventSchemaType.m */,
+				7E4081F2E35B720750C2C17FE252C683 /* AvoFloat.h */,
+				AB24C21AB412AB367BE6677AD7FF0FD7 /* AvoFloat.m */,
+				E1E5E72296119669C872335F4E697845 /* AvoInspector.h */,
+				4A551FFB20EC8D26C666E57A1ED287E5 /* AvoInspector.m */,
+				5A885A6567563B92727B0DAC762CC64A /* AvoInstallationId.h */,
+				1104F655C10D1A42671D15FBF799390F /* AvoInstallationId.m */,
+				0949EFB1626AAA2F26E4902A5CA2EE03 /* AvoInt.h */,
+				24443DEA8A43F049B07A9E01B588531C /* AvoInt.m */,
+				F3A1D24BFCC2C17F6DB9FC59E54DAA8D /* AvoList.h */,
+				2518955C34B76C65DB1226B5FAA267D5 /* AvoList.m */,
+				66A6AEBFC6EDD7BE452DF3D04D603F30 /* AvoNetworkCallsHandler.h */,
+				D35D5B09E0421312D18B12E117320F45 /* AvoNetworkCallsHandler.m */,
+				701D9BA1165E17D5CA66119906718145 /* AvoNull.h */,
+				B955F202B20BC7407357B111B6EE3C4F /* AvoNull.m */,
+				5BD9CF44630616AD8C7F4E8E336DF115 /* AvoObject.h */,
+				4624818858509EBDBFB549E5416ED1C7 /* AvoObject.m */,
+				F7E90E020CCAECE099A479B673F6FEBA /* AvoSchemaExtractor.h */,
+				F8B70899F76A1A0B59E78E9C95C5C8F1 /* AvoSchemaExtractor.m */,
+				E94E364CB29719CBA6D506D4E088859C /* AvoSessionTracker.h */,
+				13DA9098F8976927CC67DC77150C8584 /* AvoSessionTracker.m */,
+				CDD88AF9A8D40CEF6958CD74DF6D2D07 /* AvoString.h */,
+				2E4EC401C85A43685A5BA24BED327A07 /* AvoString.m */,
+				6A8DCC8C7174445B7E0E408B4F8EBE38 /* AvoUnknownType.h */,
+				C437A18E967131BF361ED5301E422905 /* AvoUnknownType.m */,
+				CA7D2634F2C9B68B5AABE3B100A96CB7 /* AvoUtils.h */,
+				461D07DB372C4053AD8C4DAC4E1EA5FD /* AvoUtils.m */,
+				7E88A62E00B18C297E65E0BB0E7F1144 /* Inspector.h */,
+				9AF5C6174548AE0BF67AF2D6274028EE /* Support Files */,
+			);
+			name = AvoInspector;
+			path = AvoInspector;
+			sourceTree = "<group>";
+		};
+		8A1AA347321D9FC52F45FA59886B2B98 /* Pods-RapchatTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A9C925DCFB66E2029A673E929EDF43D /* Pods-RapchatTest.modulemap */,
+				1F86CFF4D2A2234C1935B4A080034679 /* Pods-RapchatTest-acknowledgements.markdown */,
+				D0F3042D2AA5D7EA85198539CEA91136 /* Pods-RapchatTest-acknowledgements.plist */,
+				5D10EE90280DDD8C01A696F25E0AF975 /* Pods-RapchatTest-dummy.m */,
+				742420D95C7CDB6429E73CFE48E64610 /* Pods-RapchatTest-frameworks.sh */,
+				B5177B41685DE779DD98495B0FCAE79C /* Pods-RapchatTest-Info.plist */,
+				AAD8E72116E243DA70D7198CE3D3F7AF /* Pods-RapchatTest-umbrella.h */,
+				D2865FF12FCCB3D16F59C03468E194BE /* Pods-RapchatTest.debug.xcconfig */,
+				961F2ECD9230E5EF14C90D3902D35EEF /* Pods-RapchatTest.release.xcconfig */,
+			);
+			name = "Pods-RapchatTest";
+			path = "Target Support Files/Pods-RapchatTest";
+			sourceTree = "<group>";
+		};
+		92AB6E859BEBC7D2372CF72B2AA58478 /* Amplitude */ = {
+			isa = PBXGroup;
+			children = (
+				E2772BA30EDB2345FEE4461AD2CEF36C /* AMPBubbleView.h */,
+				D5705BEC5DDF04B5A44EEDCFD1DC7781 /* AMPBubbleView.m */,
+				9CCBC82A6AFF979396C3CCA15DD35EDF /* AMPConfigManager.h */,
+				A818447AA9A72EF0D5B05221091AA16B /* AMPConfigManager.m */,
+				21DF759D9AA211C43588C4FC0994F411 /* AMPConstants.h */,
+				9A12A0A0CC087BE3437CC647E98ECB57 /* AMPConstants.m */,
+				2469F8F03DA25FCDA98085F85EF495FE /* AMPDatabaseHelper.h */,
+				40C95D27FAB078DBAAD11FD51CAD0C62 /* AMPDatabaseHelper.m */,
+				149FA3FFC9AFDA96BEAEFED9B8D80113 /* AMPDeviceInfo.h */,
+				AEDC0B0467700237B8305BF74151DB8F /* AMPDeviceInfo.m */,
+				2A3030CCCC98A0B06BE0A6E3DB870C98 /* AMPEventExplorer.h */,
+				81D867A4C58315895D40EE9187C2AC21 /* AMPEventExplorer.m */,
+				4254A9D9600D6DA73455E1BFCA0C8B1C /* AMPIdentify.h */,
+				07A2471AC641C1F0471644FFE5D953B9 /* AMPIdentify.m */,
+				0FBA8A7BC4C285CC26554D87396E029A /* AMPInfoViewController.h */,
+				FE6C549F11EB589056A038510228D5A7 /* AMPInfoViewController.m */,
+				CF3D4F7DD5F25DC2F949912674B9F567 /* Amplitude.h */,
+				B7E85E167ACF4FD7D6B41549ACCB4C35 /* Amplitude.m */,
+				8BE669E4B35B6F85A276F58ABCD84620 /* Amplitude+SSLPinning.h */,
+				9760D52C59330B9C6B5964AA99842AFC /* AmplitudePrivate.h */,
+				87970C248ED1418D3DCA0BB932D5C734 /* AMPRevenue.h */,
+				EC1D51EC362C9CDBB395AE53D5AD3723 /* AMPRevenue.m */,
+				E84B775FD2697D21A7720D6DB68791CC /* AMPTrackingOptions.h */,
+				92D0B33EDF12E243652353D43103C7CD /* AMPTrackingOptions.m */,
+				680A5FE943E9178CD89A3DFA7792007A /* AMPURLConnection.h */,
+				F3D484CDA137EA6BFA819E3F85B1D2C7 /* AMPURLConnection.m */,
+				EE764BD3495DF3A492240DB144BBB7EE /* AMPURLSession.h */,
+				75D6DF4A6F6A0E53794EA0B1AEAF4990 /* AMPURLSession.m */,
+				E7685E3A72E10230FBE4C22B7721CCC0 /* AMPUtils.h */,
+				9BDA76182F3D5E671BEB0623D8175C85 /* AMPUtils.m */,
+				E7CA0DB127C31171E462DBF2E569139B /* ISPCertificatePinning.h */,
+				AF6CB9C4DC8C58342CFDD2DAD338B1E7 /* ISPCertificatePinning.m */,
+				827A2836DBE9A11E8588D0AB21C72FD7 /* ISPPinnedNSURLConnectionDelegate.h */,
+				A86AB17A581ED76B0D34C63DCA3ECA51 /* ISPPinnedNSURLConnectionDelegate.m */,
+				C1E064C6DD55E8A295FE1BB2307D212C /* ISPPinnedNSURLSessionDelegate.h */,
+				33B9E0DA1152078665E27EC882CC0A55 /* ISPPinnedNSURLSessionDelegate.m */,
+				7548FEDC60FC8ED9EBAE487DBEB00567 /* Resources */,
+				22E391F1CD2031BE58C88C3A91141701 /* Support Files */,
+			);
+			name = Amplitude;
+			path = Amplitude;
+			sourceTree = "<group>";
+		};
+		9AF5C6174548AE0BF67AF2D6274028EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E40B1456FF443695DB9BF046EBCC4C /* AvoInspector.modulemap */,
+				DB613E22211EDC668873AC843DD08C0D /* AvoInspector-dummy.m */,
+				9EADCBE111DCF50E73DCCB5EB3A9D7C1 /* AvoInspector-Info.plist */,
+				4EA600058359EDBA86D91BCB5EF09CF5 /* AvoInspector-prefix.pch */,
+				246D3D6E889D509E8F478F161634AA32 /* AvoInspector-umbrella.h */,
+				9CFCC9944713D1E2C577B1A666E7133C /* AvoInspector.debug.xcconfig */,
+				64F39227EF2B15CE99680C455EFDC5A8 /* AvoInspector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AvoInspector";
+			sourceTree = "<group>";
+		};
+		A461634F2F3831907BE3974F6A3B2955 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1AA347321D9FC52F45FA59886B2B98 /* Pods-RapchatTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				55B954E2C7813E4F9729A501A37442E5 /* Frameworks */,
+				0A7EBDB535DD0A7A2D20726CCB78DE32 /* Pods */,
+				EA96774B967579DDE9088AB456F1E7ED /* Products */,
+				A461634F2F3831907BE3974F6A3B2955 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D592D84862E2571024EEB7002273D65A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1273B42F2E3FD30CF14E587A3C42086 /* IosAnalyticsDebugger.modulemap */,
+				2EEB2A1FC203EDE0711235EC3DE017B5 /* IosAnalyticsDebugger-dummy.m */,
+				CEC1C0B8AC28A25CCAD8B55BD4B13573 /* IosAnalyticsDebugger-Info.plist */,
+				427BCD9AD7DC16A866983259C96B9CF7 /* IosAnalyticsDebugger-prefix.pch */,
+				D0527084ABF6788C383E19236E561012 /* IosAnalyticsDebugger-umbrella.h */,
+				9442C76180BBC96CE5B627557262BB16 /* IosAnalyticsDebugger.debug.xcconfig */,
+				6466D86EE573C28F861C2DAA6E0F4C12 /* IosAnalyticsDebugger.release.xcconfig */,
+				2EDE3CE9A7E94701CC9A0C478622CECB /* ResourceBundle-IosAnalyticsDebugger-IosAnalyticsDebugger-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IosAnalyticsDebugger";
+			sourceTree = "<group>";
+		};
+		EA96774B967579DDE9088AB456F1E7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1AEA4C98299C58EBD57977A6BF8D79 /* Amplitude.framework */,
+				11B0383C6B04CAF519A3D2E82E34D559 /* AvoInspector.framework */,
+				40A518219D7B25B888EEA71F5CCA8248 /* IosAnalyticsDebugger.bundle */,
+				0C781FF4C976452E11FAAB65E0F34882 /* IosAnalyticsDebugger.framework */,
+				88E362000C332F6187F7801046613F45 /* Pods_RapchatTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08F2FB17545E66CB889B4CF4AC873946 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8316A6F16455F38AF0E560676BA7313 /* Pods-RapchatTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E20158384F3441B8EA2CCC97610025F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1A2714072C4A2A6BD624F0B4C0C258 /* AMPBubbleView.h in Headers */,
+				0E4C51DE462A535D2C08108FDEDA1D4E /* AMPConfigManager.h in Headers */,
+				C291375BFCF252673FB6326ED6A93733 /* AMPConstants.h in Headers */,
+				0CBBE075B4FDB5FE8D9FE67C7D861B02 /* AMPDatabaseHelper.h in Headers */,
+				14A7D339563700CFCC4C9AF8540011FA /* AMPDeviceInfo.h in Headers */,
+				7A8409576BE04E724A67B8E96E2BDBC7 /* AMPEventExplorer.h in Headers */,
+				E50D005AA9C6B4B12F9793B4F6168C3F /* AMPIdentify.h in Headers */,
+				776430831AB853C3BB945B9137FEC449 /* AMPInfoViewController.h in Headers */,
+				8A0C3916EB3F6D2AD099B34B097934FF /* Amplitude+SSLPinning.h in Headers */,
+				7BD4C19E505DC1094531C97343500883 /* Amplitude-umbrella.h in Headers */,
+				873FC53ED9752887E6A80B298F3DD230 /* Amplitude.h in Headers */,
+				90B3664A9343C6C1F1E52067FE5F2F95 /* AmplitudePrivate.h in Headers */,
+				761FAF6892B2F0374DD705164583A521 /* AMPRevenue.h in Headers */,
+				F57E3C661864A6C7D9BD66E4A54473CD /* AMPTrackingOptions.h in Headers */,
+				CA6194EE48D802A6810D22E50FFFE9A5 /* AMPURLConnection.h in Headers */,
+				3A8DFE7EB91FCA342B6D50B69244B713 /* AMPURLSession.h in Headers */,
+				E37DFC60C203A40FCDA74DC36C66CC70 /* AMPUtils.h in Headers */,
+				443637F28105C20D148B72BF568BBBC6 /* ISPCertificatePinning.h in Headers */,
+				229457DCDE5FF378C83343112986C34F /* ISPPinnedNSURLConnectionDelegate.h in Headers */,
+				F074E24C81D490A1AC3BC258232D5980 /* ISPPinnedNSURLSessionDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F0D8EBE043DDA654880C9E014B4840 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C374B3B201883B03ABD88581CF40F92 /* AvoBatcher.h in Headers */,
+				3E126E11048E0BDDC790B41A75A8146E /* AvoBoolean.h in Headers */,
+				22A2F66EFCE818A5C2F464E3FB56B497 /* AvoDeduplicator.h in Headers */,
+				8E162A65E7E4471AE039973FF08A381D /* AvoEventSchemaType.h in Headers */,
+				52EA6BB3726395CE19C02AEC037B0D44 /* AvoFloat.h in Headers */,
+				9DB0677CA27CC21B3C9E053EE47D43F4 /* AvoInspector-umbrella.h in Headers */,
+				39294B345C6F4EC2C11C2ABAF3571380 /* AvoInspector.h in Headers */,
+				BBE68C02FF9F23F486D5CEB1050E09E2 /* AvoInstallationId.h in Headers */,
+				877ACBD1FB90677AB3374CFD99FD336C /* AvoInt.h in Headers */,
+				B2A9FF9190E659D17B2B0909FAAF4B53 /* AvoList.h in Headers */,
+				6A1169D3D69E77960E9BBB0AFCCAC624 /* AvoNetworkCallsHandler.h in Headers */,
+				B4CE36A2BE6FD8166F7B2887B11E727A /* AvoNull.h in Headers */,
+				CFC2FA433F731DC4370CD2870BBFA5C7 /* AvoObject.h in Headers */,
+				F070AD0CF878F0CBF5BB18F261582773 /* AvoSchemaExtractor.h in Headers */,
+				96D244AE156AAD834D715BC4C777E182 /* AvoSessionTracker.h in Headers */,
+				7A593AD558D4E1D7B42BADAA067E35DB /* AvoString.h in Headers */,
+				BBFA598D88AA27B2A5EE44EC954C1299 /* AvoUnknownType.h in Headers */,
+				88F88992F86FD311F99E018486D55D37 /* AvoUtils.h in Headers */,
+				0B202A6BB6ED7C02D7CD0512B76CD85D /* Inspector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8FBE4F8A73F11FBAE5AE603798E4C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9281FB2204AC7950436EED67572314 /* AnalyticsDebugger.h in Headers */,
+				102DB20B9F8812D10E6B8387DFEA3E61 /* BarDebuggerView.h in Headers */,
+				15FAE09B8179540ECC7E748A910706D4 /* BubbleDebuggerView.h in Headers */,
+				0DF8F41C6C84C0B4136EBAFCEF5EF7C1 /* DebuggerAnalytics.h in Headers */,
+				CFF3E1AF7F7783203FD2375A2FD10DD5 /* DebuggerAnalyticsDestination.h in Headers */,
+				D0368BB9FD565B92F82FD0BEAC60915F /* DebuggerEventItem.h in Headers */,
+				79676AB92098A88EA791ECF096A32ADB /* DebuggerMessage.h in Headers */,
+				BEFD39CC917053CAE230A721FF74C879 /* DebuggerProp.h in Headers */,
+				89E1793954A6DF835DADA6FB79998457 /* DebuggerPropError.h in Headers */,
+				CF3DAD9B609140E49826BCA897ECA318 /* DebuggerView.h in Headers */,
+				50684264DC164777CB431D0D0285FD48 /* EventsListScreenViewController.h in Headers */,
+				F716D2DA8CCDF81B2D7BFEF0E898D4B1 /* EventTableViewCell.h in Headers */,
+				ADF44E938DCC9FD52AC71799F5ED580C /* EventTableViewSecondaryCell.h in Headers */,
+				968D604477E7B34B8293AE31A62CDF5E /* IosAnalyticsDebugger-umbrella.h in Headers */,
+				4B830078FD822B3ADD39196306CF7617 /* Util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48823D1BDBB2F1869C0D86BC1B605657 /* IosAnalyticsDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0275559855CA45D8F0923E26DD0CAD98 /* Build configuration list for PBXNativeTarget "IosAnalyticsDebugger" */;
+			buildPhases = (
+				EB8FBE4F8A73F11FBAE5AE603798E4C0 /* Headers */,
+				6C3E6358231E143FD920CD643EF3763F /* Sources */,
+				CE0E76AA55CC9A1BB882DC8E27FC964F /* Frameworks */,
+				9E3053D249CFC437A32479AAC7513328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CD046EAC93E3982A30BF97BC3BCCE1 /* PBXTargetDependency */,
+			);
+			name = IosAnalyticsDebugger;
+			productName = IosAnalyticsDebugger;
+			productReference = 0C781FF4C976452E11FAAB65E0F34882 /* IosAnalyticsDebugger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CB07DC335904D6A8475653674C0BF14 /* AvoInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B6AE78268BB1ED84FFF33C983924EE /* Build configuration list for PBXNativeTarget "AvoInspector" */;
+			buildPhases = (
+				A8F0D8EBE043DDA654880C9E014B4840 /* Headers */,
+				B6001DC91C439AE10601D5ACB381E126 /* Sources */,
+				8BE62291A09F948C0B9698CCF7DBC8F6 /* Frameworks */,
+				D1CBD77A2E4D31C0A24173C3A19CAC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DBBB011E5034419C9A69377786BDF6F /* PBXTargetDependency */,
+			);
+			name = AvoInspector;
+			productName = AvoInspector;
+			productReference = 11B0383C6B04CAF519A3D2E82E34D559 /* AvoInspector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		898AFB92B6D716707DFBD36B9C3E98DF /* Pods-RapchatTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772B94BF3B85CED1D7C141F631E69F69 /* Build configuration list for PBXNativeTarget "Pods-RapchatTest" */;
+			buildPhases = (
+				08F2FB17545E66CB889B4CF4AC873946 /* Headers */,
+				7E053E222026EC75FBF98631C2D98A8C /* Sources */,
+				3B7A9A403C3ADD46D43CCAFBFB408700 /* Frameworks */,
+				047405F38473B325D331A4CC268E48A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154EEF8CFA8ED63DF814B1B703912ECB /* PBXTargetDependency */,
+				008ABC0253A06C7176DE6EE89D530C43 /* PBXTargetDependency */,
+				10380733DCEF00568D1DA549CC4941B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-RapchatTest";
+			productName = "Pods-RapchatTest";
+			productReference = 88E362000C332F6187F7801046613F45 /* Pods_RapchatTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3A90B0F4EBD528FD468C3F3BCC31CD7 /* Amplitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D5156BC803DCD37F0CB110D72B6FBF /* Build configuration list for PBXNativeTarget "Amplitude" */;
+			buildPhases = (
+				9E20158384F3441B8EA2CCC97610025F /* Headers */,
+				BD03129BFBCDF551B808086824401555 /* Sources */,
+				46E24A1AEAB7B94700DCAADFE2EAA8EA /* Frameworks */,
+				721E8E6DC6E367325BF239F8BC446E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amplitude;
+			productName = Amplitude;
+			productReference = FB1AEA4C98299C58EBD57977A6BF8D79 /* Amplitude.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1426C9D5A1DEE94F3916A09E891BAD7 /* IosAnalyticsDebugger-IosAnalyticsDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF43D11D70B910489071A6AB3928BB8 /* Build configuration list for PBXNativeTarget "IosAnalyticsDebugger-IosAnalyticsDebugger" */;
+			buildPhases = (
+				481711D9203F33C6ED64619EBE771257 /* Sources */,
+				D70BF00C1F2D73C581B7E34C61C281B9 /* Frameworks */,
+				B9E22BA3F9AE0FA7CC805A7C402C8EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IosAnalyticsDebugger-IosAnalyticsDebugger";
+			productName = "IosAnalyticsDebugger-IosAnalyticsDebugger";
+			productReference = 40A518219D7B25B888EEA71F5CCA8248 /* IosAnalyticsDebugger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EA96774B967579DDE9088AB456F1E7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A90B0F4EBD528FD468C3F3BCC31CD7 /* Amplitude */,
+				5CB07DC335904D6A8475653674C0BF14 /* AvoInspector */,
+				48823D1BDBB2F1869C0D86BC1B605657 /* IosAnalyticsDebugger */,
+				F1426C9D5A1DEE94F3916A09E891BAD7 /* IosAnalyticsDebugger-IosAnalyticsDebugger */,
+				898AFB92B6D716707DFBD36B9C3E98DF /* Pods-RapchatTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047405F38473B325D331A4CC268E48A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721E8E6DC6E367325BF239F8BC446E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606DC94DBA2947226B3A6C4C71ED7995 /* AMPBubbleView.xib in Resources */,
+				80C3A86DE7472B05EBF1D1400C3E9737 /* AMPInfoViewController.xib in Resources */,
+				331C4F21676680E9A98558D488EDE236 /* cancel.png in Resources */,
+				F07C0933A3E7911A9BBFBE2AE7C28C63 /* cancel@2x.png in Resources */,
+				626C80A6404C6F5936808A949BF612DF /* cancel@3x.png in Resources */,
+				1ED7FFAB186A1E0DAD1A2EB8BF3435C8 /* ComodoRsaDomainValidationCA.der in Resources */,
+				A9CF298A646257D1875C8FB096EDA1F8 /* logo-banner.png in Resources */,
+				C0B0596E49C827C13C3C07D1EA9ABDB7 /* logo-banner@2x.png in Resources */,
+				748F96B83994D6B1F36FC939A89399E4 /* logo-banner@3x.png in Resources */,
+				DBBDD1C5170A82AD1E2E9319AB76EFCA /* logo-button.png in Resources */,
+				F72C276C2F7A8A5BCE3114EC34734F8B /* logo-button@2x.png in Resources */,
+				4C361468071D71054F557D6655A8A0D7 /* logo-button@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3053D249CFC437A32479AAC7513328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEC1441391408856AFE4872426B14C7 /* IosAnalyticsDebugger.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E22BA3F9AE0FA7CC805A7C402C8EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B10F19955A6C132194F3DBEAE1612E /* Assets.xcassets in Resources */,
+				FA4C573566AE593F439447852164B7CC /* BarDebugger.xib in Resources */,
+				47626A7218048B8EE2111F70FD318E12 /* BubbleDebuggerXIB.xib in Resources */,
+				7152D534B194DB7F3BD591DA2D0E0494 /* EventsListScreenViewController.xib in Resources */,
+				43A5314D5C766975615A4E308D5C13B2 /* EventTableViewCell.xib in Resources */,
+				8D46A3E7CF098C664D97A0BDBB3E9417 /* EventTableViewSecondaryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CBD77A2E4D31C0A24173C3A19CAC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481711D9203F33C6ED64619EBE771257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3E6358231E143FD920CD643EF3763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C2A20AD0EC2C706B69294C2F3182F0 /* AnalyticsDebugger.m in Sources */,
+				94242A2816831E575BDEB1C82134747E /* BarDebuggerView.m in Sources */,
+				A3C534159FC3B7AC8D016ECA34FB24D4 /* BubbleDebuggerView.m in Sources */,
+				C112F57A3CDA6B94ADA23A562D44E8F4 /* DebuggerAnalytics.m in Sources */,
+				8F969CFF095A6BF4C72B94AC2AED6B0B /* DebuggerAnalyticsDestination.m in Sources */,
+				5A0AE8DF13DC760E1C0E55D189332C20 /* DebuggerEventItem.m in Sources */,
+				7D423D0FE539E0A1A702D08782380D16 /* DebuggerMessage.m in Sources */,
+				1B6A1F546D1E9F5FE10B7C1AC70FAE37 /* DebuggerProp.m in Sources */,
+				C915345412F6A544385ED162B2F65EB9 /* DebuggerPropError.m in Sources */,
+				60CE01D6A8704740319375328803A857 /* EventsListScreenViewController.m in Sources */,
+				BBD741150FBDEEB5E5DDE4C4634012AB /* EventTableViewCell.m in Sources */,
+				C7C21DCECCB216F2DA6731DAB2C5E064 /* EventTableViewSecondaryCell.m in Sources */,
+				4D6239FFC00250A237701E99263EF031 /* IosAnalyticsDebugger-dummy.m in Sources */,
+				7E54E6A84103478413F7934BF4B48DDA /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E053E222026EC75FBF98631C2D98A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F25B84190CCFD40546730224FBF71B /* Pods-RapchatTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6001DC91C439AE10601D5ACB381E126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85D681F46465E9E91DAF21D84E7B1D /* AvoBatcher.m in Sources */,
+				399D8609266909A89CB909A6BDD08A1C /* AvoBoolean.m in Sources */,
+				EEF1C7D327D4688BAE73E74F4F0C387B /* AvoDeduplicator.m in Sources */,
+				5EAE5B3119EEFD71A90E55C546882EC2 /* AvoEventSchemaType.m in Sources */,
+				91B58AD6A08186CD41B2191891131E77 /* AvoFloat.m in Sources */,
+				1541E006A55AF089708F5EDA8E35338A /* AvoInspector-dummy.m in Sources */,
+				3B16B37288B82DD523285CB947B75086 /* AvoInspector.m in Sources */,
+				42A0EDABCC8D05CA24D2026FB55C9E82 /* AvoInstallationId.m in Sources */,
+				A48249D904C0A6EFCDAA92F197D56728 /* AvoInt.m in Sources */,
+				2FB0749BAA29FC9E7B6BED5FF64FAD03 /* AvoList.m in Sources */,
+				B46CCD4333C34FFC710B25AC8CC85F66 /* AvoNetworkCallsHandler.m in Sources */,
+				14201295BA217E0AA4EF6D143FD368AA /* AvoNull.m in Sources */,
+				3A1412E36B6C33BD89776200CC86B8D5 /* AvoObject.m in Sources */,
+				96C38948B4ACE02BF8C61CA59F81D606 /* AvoSchemaExtractor.m in Sources */,
+				67918E73A0715D87CB4CD502B4EF301A /* AvoSessionTracker.m in Sources */,
+				B4D7277B7A7D06CA87ACA564C4C059E9 /* AvoString.m in Sources */,
+				001749CFC0A2973E334AB22F36DA06A0 /* AvoUnknownType.m in Sources */,
+				EC866DA82162CACC260970D4F89C7168 /* AvoUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD03129BFBCDF551B808086824401555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC040E99B7A24B125D0358775A58C0B4 /* AMPBubbleView.m in Sources */,
+				5ED5526ECCB2346E9DE63668B9486660 /* AMPConfigManager.m in Sources */,
+				16CD7FE9F87E0F29B88A2A2A2BF4B744 /* AMPConstants.m in Sources */,
+				90C5ED11BF3D9A8049112185991F9973 /* AMPDatabaseHelper.m in Sources */,
+				4460A0ECB78E5B7B976903889B11C2AD /* AMPDeviceInfo.m in Sources */,
+				F02901205B574E8F985C180E5C1D824F /* AMPEventExplorer.m in Sources */,
+				E420C4F94BFEBF1BDF90B936CBA3EE7A /* AMPIdentify.m in Sources */,
+				2FDCF0211E09FBC89A6186A35F2E3D6F /* AMPInfoViewController.m in Sources */,
+				01C8931A0187055DD3C32C427AC8826C /* Amplitude-dummy.m in Sources */,
+				DCB35F62937BA8FD9AAE1139DEEDACBA /* Amplitude.m in Sources */,
+				316F6D6D0CECBE2B1B08C9A53CC529A4 /* AMPRevenue.m in Sources */,
+				9E3707E913D449ADA43FD41765A5018A /* AMPTrackingOptions.m in Sources */,
+				581C4697CD6FE1904BD2A917D4C63BF0 /* AMPURLConnection.m in Sources */,
+				C9FDBAAE88FF4D90BD1E56EE27695724 /* AMPURLSession.m in Sources */,
+				DB630EBA640BEEA8EBA0869B83839BA1 /* AMPUtils.m in Sources */,
+				A3807C4032E91EB17853F590C7112CB7 /* ISPCertificatePinning.m in Sources */,
+				02F664C46D6078DD3962C982C8B24622 /* ISPPinnedNSURLConnectionDelegate.m in Sources */,
+				DD325C1625BB73E3B3040CB61D4754D0 /* ISPPinnedNSURLSessionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008ABC0253A06C7176DE6EE89D530C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvoInspector;
+			target = 5CB07DC335904D6A8475653674C0BF14 /* AvoInspector */;
+			targetProxy = B98371ED12318194FB1902D8C4D98D92 /* PBXContainerItemProxy */;
+		};
+		10380733DCEF00568D1DA549CC4941B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IosAnalyticsDebugger;
+			target = 48823D1BDBB2F1869C0D86BC1B605657 /* IosAnalyticsDebugger */;
+			targetProxy = DDF95DF28BA94533D9A24C3948BF4675 /* PBXContainerItemProxy */;
+		};
+		154EEF8CFA8ED63DF814B1B703912ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Amplitude;
+			target = D3A90B0F4EBD528FD468C3F3BCC31CD7 /* Amplitude */;
+			targetProxy = 4511928D01C07FAB7BD011E968BC1D34 /* PBXContainerItemProxy */;
+		};
+		63CD046EAC93E3982A30BF97BC3BCCE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IosAnalyticsDebugger-IosAnalyticsDebugger";
+			target = F1426C9D5A1DEE94F3916A09E891BAD7 /* IosAnalyticsDebugger-IosAnalyticsDebugger */;
+			targetProxy = 4DFB3A3724D8C95F12EEDFA86F6F267D /* PBXContainerItemProxy */;
+		};
+		7DBBB011E5034419C9A69377786BDF6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IosAnalyticsDebugger;
+			target = 48823D1BDBB2F1869C0D86BC1B605657 /* IosAnalyticsDebugger */;
+			targetProxy = 2990BEE0A2BCE1886A3A2B39784E4B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C362D60953AB8C3CE6296B04039C734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		165BB3689C53B3BE3C7078268101E28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2865FF12FCCB3D16F59C03468E194BE /* Pods-RapchatTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RapchatTest/Pods-RapchatTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RapchatTest/Pods-RapchatTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20BA53852D1525DC21B1123473B4CDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9442C76180BBC96CE5B627557262BB16 /* IosAnalyticsDebugger.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IosAnalyticsDebugger";
+				IBSC_MODULE = IosAnalyticsDebugger;
+				INFOPLIST_FILE = "Target Support Files/IosAnalyticsDebugger/ResourceBundle-IosAnalyticsDebugger-IosAnalyticsDebugger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = IosAnalyticsDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		51539083EC604E5C1B63A3A8383A6B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9442C76180BBC96CE5B627557262BB16 /* IosAnalyticsDebugger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger.modulemap";
+				PRODUCT_MODULE_NAME = IosAnalyticsDebugger;
+				PRODUCT_NAME = IosAnalyticsDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57DB0B86426D670FE337A7679A62FA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA62E7FF42E0854D6F5E860DCD8D549 /* Amplitude.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Amplitude/Amplitude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Amplitude/Amplitude-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Amplitude/Amplitude.modulemap";
+				PRODUCT_MODULE_NAME = Amplitude;
+				PRODUCT_NAME = Amplitude;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70316595C2F2AE9923F8DA14508E87F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7362BABC29B6C5698C6BA624690CD99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F39227EF2B15CE99680C455EFDC5A8 /* AvoInspector.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvoInspector/AvoInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvoInspector/AvoInspector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvoInspector/AvoInspector.modulemap";
+				PRODUCT_MODULE_NAME = AvoInspector;
+				PRODUCT_NAME = AvoInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D66418463B778C6231762612D0606D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6777DD6210B7B1B219E0C9CE473BE2 /* Amplitude.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Amplitude/Amplitude-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Amplitude/Amplitude-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Amplitude/Amplitude.modulemap";
+				PRODUCT_MODULE_NAME = Amplitude;
+				PRODUCT_NAME = Amplitude;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8C0BDD0BAF5479DFDBA2A9493F1B5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6466D86EE573C28F861C2DAA6E0F4C12 /* IosAnalyticsDebugger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IosAnalyticsDebugger/IosAnalyticsDebugger.modulemap";
+				PRODUCT_MODULE_NAME = IosAnalyticsDebugger;
+				PRODUCT_NAME = IosAnalyticsDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDD79820A7C5D3D4D0DA50C897F6C847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961F2ECD9230E5EF14C90D3902D35EEF /* Pods-RapchatTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RapchatTest/Pods-RapchatTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RapchatTest/Pods-RapchatTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D229849096DB628614B36C1649499DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFCC9944713D1E2C577B1A666E7133C /* AvoInspector.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvoInspector/AvoInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvoInspector/AvoInspector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AvoInspector/AvoInspector.modulemap";
+				PRODUCT_MODULE_NAME = AvoInspector;
+				PRODUCT_NAME = AvoInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD9CA3FE5787FE73525882868D48CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6466D86EE573C28F861C2DAA6E0F4C12 /* IosAnalyticsDebugger.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IosAnalyticsDebugger";
+				IBSC_MODULE = IosAnalyticsDebugger;
+				INFOPLIST_FILE = "Target Support Files/IosAnalyticsDebugger/ResourceBundle-IosAnalyticsDebugger-IosAnalyticsDebugger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = IosAnalyticsDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0275559855CA45D8F0923E26DD0CAD98 /* Build configuration list for PBXNativeTarget "IosAnalyticsDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51539083EC604E5C1B63A3A8383A6B32 /* Debug */,
+				B8C0BDD0BAF5479DFDBA2A9493F1B5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C362D60953AB8C3CE6296B04039C734 /* Debug */,
+				70316595C2F2AE9923F8DA14508E87F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772B94BF3B85CED1D7C141F631E69F69 /* Build configuration list for PBXNativeTarget "Pods-RapchatTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BB3689C53B3BE3C7078268101E28C /* Debug */,
+				CDD79820A7C5D3D4D0DA50C897F6C847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D5156BC803DCD37F0CB110D72B6FBF /* Build configuration list for PBXNativeTarget "Amplitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DB0B86426D670FE337A7679A62FA16 /* Debug */,
+				9D66418463B778C6231762612D0606D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF43D11D70B910489071A6AB3928BB8 /* Build configuration list for PBXNativeTarget "IosAnalyticsDebugger-IosAnalyticsDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BA53852D1525DC21B1123473B4CDC9 /* Debug */,
+				DD9CA3FE5787FE73525882868D48CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B6AE78268BB1ED84FFF33C983924EE /* Build configuration list for PBXNativeTarget "AvoInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229849096DB628614B36C1649499DA1 /* Debug */,
+				7362BABC29B6C5698C6BA624690CD99B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

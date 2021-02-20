@@ -1,0 +1,24 @@
+PODS:
+  - Amplitude (7.2.2)
+  - AvoInspector (1.2.4):
+    - IosAnalyticsDebugger (~> 1.2.1)
+  - IosAnalyticsDebugger (1.2.1)
+
+DEPENDENCIES:
+  - Amplitude (~> 7.2.0)
+  - AvoInspector
+
+SPEC REPOS:
+  trunk:
+    - Amplitude
+    - AvoInspector
+    - IosAnalyticsDebugger
+
+SPEC CHECKSUMS:
+  Amplitude: 517cdc7c485bda64b685174426ecbf17746eb16a
+  AvoInspector: ad1d18160dd0225d5c826f9440cf38ebb1302a21
+  IosAnalyticsDebugger: 2e777bbd21bb5198f753c071bcef152de7fdac43
+
+PODFILE CHECKSUM: a108d0a4c74170b4c798b246525ef3776d768b0c
+
+COCOAPODS: 1.9.1

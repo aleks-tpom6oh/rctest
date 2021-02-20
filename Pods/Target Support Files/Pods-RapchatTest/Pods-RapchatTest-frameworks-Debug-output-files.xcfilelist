@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvoInspector.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IosAnalyticsDebugger.framework
